@@ -1,0 +1,125 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #255f69;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #6fdff3;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: burlywood;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+  .dropdown-menu li a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ b img  {
+    width: 125;
+	height: auto;
+	border: 1px solid rgb(245, 207, 207);
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+			
+   
+  
+  }
+  
+ 
+  
+ 
+body{
+    
+  
+    margin-top: 10px;margin-right: 125x;margin-bottom: 30px;margin-left: 125px;
+    
+     background-color:rgb(0, 0, 0);
+     color: rgb(155, 199, 238);
+     
+     font-family:Roboto,arial,sans-serif;
+     background-size: cover;
+     font-size: medium;
+     font-weight: normal;
+     box-sizing: border-box;
+     text-align: center;
+      
+ 
+ }
+ form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+
+
+ p{
+    color:darkcyan;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 10px;
+    
+ }
+
+ 
